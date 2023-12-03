@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^5.0.1"
+  },
+  "ava": {
+    "files": [
+      "test/*.js"
+    ],
+    "source": [
+      "src"
+    ]
+  },
+  "dependencies": {
+    "ramda": "^0.29.1"
+  }
+}
