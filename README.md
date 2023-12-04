@@ -25,4 +25,14 @@ I intend to use multiple languages, but probably will use not more than 5 or so 
 
 # Day 2
 
+## rust / cargo test -> (`**`)
+
+### platform:
+  - rustc 1.73.0 (cc66ad468 2023-10-03)
+
+### style:
+  - rusty? (mix of book of rust tutorial code and stackoverflow)
+
+### libraries:
+  - std
 

@@ -37,7 +37,16 @@ fn main() {
         //     println!("{:?}", cube.total())
         // }
     }
-    println!("sum: {}", sum);
+    let mut powersum: u32 = 0;
+    for game in games {
+        let r = game.total(Color::Red) as u32;
+        let g = game.total(Color::Green) as u32;
+        let b = game.total(Color::Blue) as u32;
+
+        powersum += r * g * b;
+    }
+    println!("sum part1: {}", sum);
+    println!("powersum part2: {}", powersum);
 }
 
 fn parse_file(args: &[String]) -> String {
